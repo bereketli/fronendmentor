@@ -3,6 +3,6 @@
     "tailwindcss": "^3.3.1"
   },
   "scripts": {
-    "dev": "open src/index.html"
+    "dev": "xdg-open src/index.html"
   }
 }
