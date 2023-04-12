@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+
+
+@tailwind utilities;
+@layer components{
+    .img-profile{
+    @apply w-25px h-25px ring ring-2 ring-white ring-opacity-40 rounded-full
+}
+.profile{
+    @apply w-44  flex justify-between
+}
+.name{
+    @apply opacity-80 font-semibold
+}
+
+
+}
