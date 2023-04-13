@@ -1,18 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
 @tailwind base;
 @tailwind components;
 
 
 @tailwind utilities;
 @layer components{
-    .img-profile{
-    @apply w-25px h-25px ring ring-2 ring-white ring-opacity-40 rounded-full
+.img-profile{
+@apply w-25px  ring-gray-300 ring-opacity-40 ring-2 rounded-full 
 }
+    
 .profile{
-    @apply w-44  flex justify-between
+    @apply w-40 flex justify-between 
 }
 .name{
-    @apply opacity-80 font-semibold
+    @apply opacity-90 font-semibold
 }
 
 
 }
+
+
+

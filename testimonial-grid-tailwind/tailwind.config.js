@@ -4,8 +4,13 @@ module.exports = {
   theme: {
     extend: {
       spacing:{
-        "25px":"25px",
-      }
+        "25px":"35px",
+      },
+
+      fontFamily:{
+        roboto_condensed: ['Roboto Condensed', 'Arial', 'sans-serif'],
+      },
+      
     },
   },
   plugins: [],
