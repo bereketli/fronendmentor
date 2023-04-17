@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+.input{
+    @apply w-full border-b-2 border-gray-300 focus:border-gray-500 px-0 py-1 mt-1
+    placeholder:text-transparent focus:outline-none 
+}
+.input-label{
+    @apply absolute top-0 left-0 transform -translate-y-1/2 text-gray-500 
+   ease-in-out duration-100 opacity-75 peer-placeholder-shown:top-1/2 
+    peer-placeholder-shown:text-base peer-focus:top-0 peer-focus:text-sm peer-focus:text-gray-700
+}
+
+@tailwind utilities;
+
+   
+
